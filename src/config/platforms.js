@@ -177,10 +177,9 @@ export const PLATFORMS = {
   arxiv: 'https://arxiv.org',
   fdroid: 'https://f-droid.org',
   jenkins: 'https://updates.jenkins.io',
-  // anyrouter.top is a claude code router service 
-  anyrouter: 'https://anyrouter.top',
 
   // AI Inference Providers
+  'ip-anyrouter': 'https://anyrouter.top',
   'ip-openai': 'https://api.openai.com',
   'ip-anthropic': 'https://api.anthropic.com',
   'ip-gemini': 'https://generativelanguage.googleapis.com',
