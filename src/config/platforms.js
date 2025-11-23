@@ -177,7 +177,7 @@ export const PLATFORMS = {
   arxiv: 'https://arxiv.org',
   fdroid: 'https://f-droid.org',
   jenkins: 'https://updates.jenkins.io',
-  anyrouter: 'https://anyrouter.top',
+  anyrouter: 'https://anyrouter.top', // anyrouter.top is a claude code router service
 
   // AI Inference Providers
   'ip-openai': 'https://api.openai.com',
