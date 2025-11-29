@@ -5,14 +5,18 @@
 <a href="https://trendshift.io/repositories/14768" target="_blank"><img src="https://trendshift.io/api/badge/repositories/14768" alt="xixu-me%2FXget | Trendshift" width="250" height="55"/></a>
 <a href="https://www.producthunt.com/products/xget" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1039008" alt="Xget | Product Hunt" width="250" height="55" /></a>
 
-[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?&logo=cloudflare&logoColor=white)](#部署到-cloudflare-workers)
-[![EdgeOne](https://img.shields.io/badge/EdgeOne-006EFF?&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAACNklEQVR4nJ1W7XHbMAx96ul/lQnCDapOUG3gdIIkG6QjdINOUGeDNhNYmUDuBHIWiNQF/PqDYAxDoMUGdzx+AXgAAQGqSKKAOgAbma8BXMn5DGAv4wlAv6qJ5KVxR3LkOR3NWu9HkcnqzF0EkoMDcsysLd8oOooAb0lOF7wqpYnkzRrgZkVJ8mp0jLFzotscYOC6ZyNjjLbOnTZI7weSjQc4ZoQmkjuSneIdMoADyR9iVKuB0qglWYOT0n9Uys/qPAD4ZHgfAXwzfO/6LLyxcTxbJEdufFi1aEk32l6Z+1Lhep1lQa1aVwI2O3wBsTIFxOoUADzVspgzQp6S1pztATRyvpG5lTNLTUVykssJwF91OQP4bATuAGzVngBexJD0vJW51/u5VpZc4VSUgViMLX1xlIUCoERNLoYE8Ns579S6chTngGYZh1oWjRGoEGOjKSAGP/HovqblDoiJtAfwLPv5xHnqCrbNeK3K8qX9juQDMx3CVpoesXLop7DeATF+2rsKsbo8oizD3zzsjLWk30RHw7N7R5V68/AgMUpeWg9bLLOxL/AniOw1Yp58t/FZi5+mzuFrJJY/Sb6qFzmmV9PMgzBsHUW/eN5gJwdk54Rm4YTXgHPx00p24qEGydFElb3e09nUbpXVuZ+oS/88Z62rJLMelHAJSDqf6LxWSXvS35/+Vr0SlqrPHsBXxOw/o5IGHDLKE4AucS8A7hG7zAIMACryv371WxkfxYhZFD8jFvt+TdE/deK28xBAUlEAAAAASUVORK5CYII=)](#部署到-edgeone-pages)
-[![Docker](https://img.shields.io/badge/Docker-2496ED?&logo=docker&logoColor=white)](#自托管部署)
-[![Podman](https://img.shields.io/badge/Podman-892CA0?&logo=podman&logoColor=white)](#自托管部署)
-[![Chromium](https://img.shields.io/badge/Chromium-4285F4?logo=googlechrome&logoColor=white)](#-生态系统集成)
-[![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox&logoColor=white)](#-生态系统集成)
 [![Ask Zread](https://img.shields.io/badge/Ask_Zread-_.svg?style=flat&color=00b0aa&labelColor=000000&logo=data%3Aimage%2Fsvg%2Bxml%3Bbase64%2CPHN2ZyB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAxNiAxNiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTQuOTYxNTYgMS42MDAxSDIuMjQxNTZDMS44ODgxIDEuNjAwMSAxLjYwMTU2IDEuODg2NjQgMS42MDE1NiAyLjI0MDFWNC45NjAxQzEuNjAxNTYgNS4zMTM1NiAxLjg4ODEgNS42MDAxIDIuMjQxNTYgNS42MDAxSDQuOTYxNTZDNS4zMTUwMiA1LjYwMDEgNS42MDE1NiA1LjMxMzU2IDUuNjAxNTYgNC45NjAxVjIuMjQwMUM1LjYwMTU2IDEuODg2NjQgNS4zMTUwMiAxLjYwMDEgNC45NjE1NiAxLjYwMDFaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00Ljk2MTU2IDEwLjM5OTlIMi4yNDE1NkMxLjg4ODEgMTAuMzk5OSAxLjYwMTU2IDEwLjY4NjQgMS42MDE1NiAxMS4wMzk5VjEzLjc1OTlDMS42MDE1NiAxNC4xMTM0IDEuODg4MSAxNC4zOTk5IDIuMjQxNTYgMTQuMzk5OUg0Ljk2MTU2QzUuMzE1MDIgMTQuMzk5OSA1LjYwMTU2IDE0LjExMzQgNS42MDE1NiAxMy43NTk5VjExLjAzOTlDNS42MDE1NiAxMC42ODY0IDUuMzE1MDIgMTAuMzk5OSA0Ljk2MTU2IDEwLjM5OTlaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik0xMy43NTg0IDEuNjAwMUgxMS4wMzg0QzEwLjY4NSAxLjYwMDEgMTAuMzk4NCAxLjg4NjY0IDEwLjM5ODQgMi4yNDAxVjQuOTYwMUMxMC4zOTg0IDUuMzEzNTYgMTAuNjg1IDUuNjAwMSAxMS4wMzg0IDUuNjAwMUgxMy43NTg0QzE0LjExMTkgNS42MDAxIDE0LjM5ODQgNS4zMTM1NiAxNC4zOTg0IDQuOTYwMVYyLjI0MDFDMTQuMzk4NCAxLjg4NjY0IDE0LjExMTkgMS42MDAxIDEzLjc1ODQgMS42MDAxWiIgZmlsbD0iI2ZmZiIvPgo8cGF0aCBkPSJNNCAxMkwxMiA0TDQgMTJaIiBmaWxsPSIjZmZmIi8%2BCjxwYXRoIGQ9Ik00IDEyTDEyIDQiIHN0cm9rZT0iI2ZmZiIgc3Ryb2tlLXdpZHRoPSIxLjUiIHN0cm9rZS1saW5lY2FwPSJyb3VuZCIvPgo8L3N2Zz4K&logoColor=ffffff)](https://zread.ai/xixu-me/Xget)
 [![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/xixu-me/Xget)
+[![Chromium](https://img.shields.io/badge/Chromium-4285F4?logo=googlechrome&logoColor=white)](#-生态系统集成)
+[![Firefox](https://img.shields.io/badge/Firefox-FF7139?logo=Firefox&logoColor=white)](#-生态系统集成)
+
+[![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?&logo=cloudflare&logoColor=white)](#部署到-cloudflare-workers)
+[![EdgeOne](https://img.shields.io/badge/EdgeOne-006EFF?&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABwAAAAcCAYAAAByDd+UAAACNklEQVR4nJ1W7XHbMAx96ul/lQnCDapOUG3gdIIkG6QjdINOUGeDNhNYmUDuBHIWiNQF/PqDYAxDoMUGdzx+AXgAAQGqSKKAOgAbma8BXMn5DGAv4wlAv6qJ5KVxR3LkOR3NWu9HkcnqzF0EkoMDcsysLd8oOooAb0lOF7wqpYnkzRrgZkVJ8mp0jLFzotscYOC6ZyNjjLbOnTZI7weSjQc4ZoQmkjuSneIdMoADyR9iVKuB0qglWYOT0n9Uys/qPAD4ZHgfAXwzfO/6LLyxcTxbJEdufFi1aEk32l6Z+1Lhep1lQa1aVwI2O3wBsTIFxOoUADzVspgzQp6S1pztATRyvpG5lTNLTUVykssJwF91OQP4bATuAGzVngBexJD0vJW51/u5VpZc4VSUgViMLX1xlIUCoERNLoYE8Ns579S6chTngGYZh1oWjRGoEGOjKSAGP/HovqblDoiJtAfwLPv5xHnqCrbNeK3K8qX9juQDMx3CVpoesXLop7DeATF+2rsKsbo8oizD3zzsjLWk30RHw7N7R5V68/AgMUpeWg9bLLOxL/AniOw1Yp58t/FZi5+mzuFrJJY/Sb6qFzmmV9PMgzBsHUW/eN5gJwdk54Rm4YTXgHPx00p24qEGydFElb3e09nUbpXVuZ+oS/88Z62rJLMelHAJSDqf6LxWSXvS35/+Vr0SlqrPHsBXxOw/o5IGHDLKE4AucS8A7hG7zAIMACryv371WxkfxYhZFD8jFvt+TdE/deK28xBAUlEAAAAASUVORK5CYII=)](#部署到-edgeone-pages)
+[![Vercel](https://img.shields.io/badge/Vercel-000000?&logo=vercel&logoColor=white)](#部署到-vercel)
+[![Netlify](https://img.shields.io/badge/Netlify-00C7B7?&logo=netlify&logoColor=white)](#部署到-netlify)
+[![Deno](https://img.shields.io/badge/Deno-70FFAF?&logo=deno&logoColor=black)](#部署到-deno-deploy)
+[![Docker](https://img.shields.io/badge/Docker-2496ED?&logo=docker&logoColor=white)](#自托管部署)
+[![Podman](https://img.shields.io/badge/Podman-892CA0?&logo=podman&logoColor=white)](#自托管部署)
 
 </div>
 
@@ -65,21 +69,6 @@
 - **⚖️ 合规合法**：严格遵守相关法律法规，仅加速合法资源
 - **🚀 提升效率**：显著提高开发者的工作效率和开发体验
 - **🆓 普惠开源**：为开源社区贡献力量，促进技术交流与发展
-
-## 💝 赞助商
-
-<p align="center" style="display: flex; justify-content: center; align-items: center; gap: 24px;">
-  <a href="https://www.digitalocean.com/?refcode=7efe110ca23f">
-    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg"
-         alt="Powered by DigitalOcean"
-         height="55">
-  </a>
-  <a href="https://dartnode.com">
-    <img src="https://dartnode.com/branding/DN-Open-Source-sm.png"
-         alt="Powered by DartNode"
-         height="55">
-  </a>
-</p>
 
 ## 🎯 快速使用
 
@@ -2335,7 +2324,7 @@ client = OpenAI(
 1. **fork 本存储库**：[Fork xixu-me/Xget](https://github.com/xixu-me/Xget/fork)
 
 2. **获取 Cloudflare 凭证**：
-   - 访问[帐户 API 令牌](https://dash.cloudflare.com/?to=/:account/api-tokens)创建并记录 API 令牌，使用“编辑 Cloudflare Workers”模板
+   - 访问[账户 API 令牌](https://dash.cloudflare.com/?to=/:account/api-tokens)创建并记录 API 令牌，使用“编辑 Cloudflare Workers”模板
    - 访问 [Workers 和 Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages) 记录 Account ID
 
 3. **配置 GitHub Secrets**：
@@ -2356,7 +2345,7 @@ client = OpenAI(
 1. **fork 本存储库**：[Fork xixu-me/Xget](https://github.com/xixu-me/Xget/fork)
 
 2. **获取 Cloudflare 凭证**：
-   - 访问[帐户 API 令牌](https://dash.cloudflare.com/?to=/:account/api-tokens)创建并记录 API 令牌，使用“编辑 Cloudflare Workers”模板
+   - 访问[账户 API 令牌](https://dash.cloudflare.com/?to=/:account/api-tokens)创建并记录 API 令牌，使用“编辑 Cloudflare Workers”模板
    - 访问 [Workers 和 Pages](https://dash.cloudflare.com/?to=/:account/workers-and-pages) 记录 Account ID
 
 3. **配置 GitHub Secrets**：
@@ -2385,7 +2374,7 @@ client = OpenAI(
 3. **配置 GitHub Secrets**：
    - 进入你的 GitHub 存储库 → Settings → Secrets and variables → Actions
    - 添加以下 secret：
-     - `EDGEONE_API_TOKEN`：你的 EdgeOne Pages API Token
+     - `EDGEONE_API_TOKEN`：你的 API Token
 
 4. **触发部署**：
    - 存储库会自动将 Workers 代码转换为 Pages 兼容格式并同步到 `pages` 分支
@@ -2396,6 +2385,72 @@ client = OpenAI(
 5. **绑定自定义域名**（可选）：在 EdgeOne Pages 控制台中绑定你的自定义域名
 
 **注意**：`pages` 分支是从 `main` 分支自动生成的。请勿手动编辑 `pages` 分支，因为它会被同步工作流覆盖。
+
+### 部署到 Vercel
+
+1. **fork 本存储库**：[Fork xixu-me/Xget](https://github.com/xixu-me/Xget/fork)
+
+2. **获取 Vercel 凭证**：
+   - 访问 [Vercel Account Settings](https://vercel.com/account/settings/tokens) 创建并记录 Access Token
+   - 访问 Team Settings 记录 Team ID
+   - 新建项目后访问项目的 Settings 记录 Project ID
+
+3. **配置 GitHub Secrets**：
+   - 进入你的 GitHub 存储库 → Settings → Secrets and variables → Actions
+   - 添加以下 secrets：
+     - `VERCEL_TOKEN`：你的 Access Token
+     - `VERCEL_ORG_ID`：你的 Team ID
+     - `VERCEL_PROJECT_ID`：你的 Project ID
+
+4. **触发部署**：
+   - 存储库会自动将 Workers 代码转换为 Functions 兼容格式并同步到 `functions` 分支
+   - 推送代码到 `main` 分支会自动触发同步和部署工作流
+   - 仅修改文档文件（`.md`）、`LICENSE`、`.gitignore` 等不会触发部署
+   - 也可以在 GitHub Actions 页面手动触发部署
+
+5. **绑定自定义域名**（可选）：在 Vercel 控制台中绑定你的自定义域名
+
+**注意**：`functions` 分支是从 `main` 分支自动生成的。请勿手动编辑 `functions` 分支，因为它会被同步工作流覆盖。
+
+### 部署到 Netlify
+
+1. **fork 本存储库**：[Fork xixu-me/Xget](https://github.com/xixu-me/Xget/fork)
+
+2. **获取 Netlify 凭证**：
+   - 访问 [Netlify User Settings](https://app.netlify.com/user/applications) 创建并记录 personal access token
+   - 新建项目后访问 Project configuration 记录 Project ID
+
+3. **配置 GitHub Secrets**：
+   - 进入你的 GitHub 存储库 → Settings → Secrets and variables → Actions
+   - 添加以下 secrets：
+     - `NETLIFY_AUTH_TOKEN`：你的 personal access token
+     - `NETLIFY_SITE_ID`：你的 Project ID
+
+4. **触发部署**：
+   - 存储库会自动将 Workers 代码转换为 Functions 兼容格式并同步到 `functions` 分支
+   - 推送代码到 `main` 分支会自动触发同步和部署工作流
+   - 仅修改文档文件（`.md`）、`LICENSE`、`.gitignore` 等不会触发部署
+   - 也可以在 GitHub Actions 页面手动触发部署
+
+5. **绑定自定义域名**（可选）：在 Netlify 控制台中绑定你的自定义域名
+
+**注意**：`functions` 分支是从 `main` 分支自动生成的。请勿手动编辑 `functions` 分支，因为它会被同步工作流覆盖。
+
+### 部署到 Deno Deploy
+
+1. **fork 本存储库**：[Fork xixu-me/Xget](https://github.com/xixu-me/Xget/fork)
+
+2. **切换默认分支**：
+   - 进入你的 GitHub 存储库 → Settings → General → Default branch
+   - 将默认分支从 `main` 切换到 `functions`
+
+3. **部署到 Deno Deploy**：
+   - 参考 [Deno Deploy 官方文档](https://docs.deno.com/deploy/getting_started/)执行部署
+   - 在 Deno Deploy 控制台创建新项目并连接你的 GitHub 存储库
+
+4. **绑定自定义域名**（可选）：在 Deno Deploy 控制台中绑定你的自定义域名
+
+**注意**：`functions` 分支是从 `main` 分支自动生成的。请勿手动编辑 `functions` 分支，因为它会被同步工作流覆盖。
 
 ### 自托管部署
 
@@ -2500,6 +2555,14 @@ podman compose up -d
 ```
 
 部署完成后，Xget 将在 8080 端口运行。
+
+如果你希望在 DigitalOcean 上部署和运行 Xget，可以参考文档[《Deploying and Optimizing Xget on DigitalOcean》](docs/deploy-on-digitalocean.md)。通过下方推荐链接注册账户，可获得 200 美元代金券积分，可用于创建 Droplet、Kubernetes、App Platform 等资源：
+
+<p>
+  <a href="https://m.do.co/c/7efe110ca23f">
+    <img src="https://opensource.nyc3.cdn.digitaloceanspaces.com/attribution/assets/PoweredByDO/DO_Powered_by_Badge_blue.svg" width="201px">
+  </a>
+</p>
 
 **注意**：自托管部署不包括全球边缘网络加速，性能取决于你的服务器配置和网络环境。
 
